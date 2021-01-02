@@ -13,3 +13,10 @@
   "short_name": "Portal Medis",
   "start_url": "/pmpwa-instalable/index.html"
 }
+"prefer_related_applications": true,
+"related_applications": [
+  {
+    "platform": "play",
+    "id": "com.google.samples.apps.iosched"
+  }
+]
