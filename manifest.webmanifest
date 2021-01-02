@@ -17,7 +17,7 @@
   "short_name": "Portal Medis",
   "start_url": "https://www.portalmedis.com"
 }
-"prefer_related_applications": fals,
+"prefer_related_applications": true,
 "related_applications": [
   {
     "platform": "play",
