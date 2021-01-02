@@ -15,7 +15,7 @@
   ],
   "name": "Portal Medis",
   "short_name": "Portal Medis",
-  "start_url": "/pmpwa-instalable/index.html"
+  "start_url": "https://www.portalmedis.com"
 }
 "prefer_related_applications": fals,
 "related_applications": [
