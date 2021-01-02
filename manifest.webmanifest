@@ -1,0 +1,53 @@
+{
+  "name": "Portal Medis",
+  "short_name": "Portal Medis",
+  "start_url": "https://www.portalmedis.com/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#99b787",
+  "description": "Portal Kesehatan Akurat dan Terpercaya",
+  "icons": [{
+    "src": "https://1.bp.blogspot.com/-8bT_Glgtwb8/X7VIod9nWmI/AAAAAAAAAxo/BxxtHFlKPtc2asgkDKeJxI9ideqCjitwACNcBGAsYHQ/s16/Logo%2BPortalmedis%2BPNG%2B512.png",
+    "sizes": "16x16",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-8bT_Glgtwb8/X7VIod9nWmI/AAAAAAAAAxo/BxxtHFlKPtc2asgkDKeJxI9ideqCjitwACNcBGAsYHQ/s32/Logo%2BPortalmedis%2BPNG%2B512.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-8bT_Glgtwb8/X7VIod9nWmI/AAAAAAAAAxo/BxxtHFlKPtc2asgkDKeJxI9ideqCjitwACNcBGAsYHQ/s48/Logo%2BPortalmedis%2BPNG%2B512.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-8bT_Glgtwb8/X7VIod9nWmI/AAAAAAAAAxo/BxxtHFlKPtc2asgkDKeJxI9ideqCjitwACNcBGAsYHQ/s72/Logo%2BPortalmedis%2BPNG%2B512.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-8bT_Glgtwb8/X7VIod9nWmI/AAAAAAAAAxo/BxxtHFlKPtc2asgkDKeJxI9ideqCjitwACNcBGAsYHQ/s96/Logo%2BPortalmedis%2BPNG%2B512.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-8bT_Glgtwb8/X7VIod9nWmI/AAAAAAAAAxo/BxxtHFlKPtc2asgkDKeJxI9ideqCjitwACNcBGAsYHQ/s144/Logo%2BPortalmedis%2BPNG%2B512.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-8bT_Glgtwb8/X7VIod9nWmI/AAAAAAAAAxo/BxxtHFlKPtc2asgkDKeJxI9ideqCjitwACNcBGAsYHQ/s168/Logo%2BPortalmedis%2BPNG%2B512.png",
+    "sizes": "168x168",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-8bT_Glgtwb8/X7VIod9nWmI/AAAAAAAAAxo/BxxtHFlKPtc2asgkDKeJxI9ideqCjitwACNcBGAsYHQ/s192/Logo%2BPortalmedis%2BPNG%2B512.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-8bT_Glgtwb8/X7VIod9nWmI/AAAAAAAAAxo/BxxtHFlKPtc2asgkDKeJxI9ideqCjitwACNcBGAsYHQ/s512/Logo%2BPortalmedis%2BPNG%2B512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
+"prefer_related_applications": true,
+"related_applications": [
+  {
+    "platform": "play",
+    "id": "com.google.samples.apps.iosched"
+  }
+]
