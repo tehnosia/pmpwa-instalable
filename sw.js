@@ -1,21 +1,2 @@
-self.addEventListener('install', function(e) {
- e.waitUntil(
-   caches.open('portal-medis').then(function(cache) {
-     return cache.addAll([
-       '/pmpwa-instalable/',
-       '/pmpwa-instalable/index.html',
-       '/pmpwa-instalable/index.js',
-       '/pmpwa-instalable/style.css',
-       '/pmpwa-instalable/images/pmlogo.jpg',
-     ]);
-   })
- );
-});
-self.addEventListener('fetch', function(e) {
-  console.log(e.request.url);
-  e.respondWith(
-    caches.match(e.request).then(function(response) {
-      return response || fetch(e.request);
-    })
-  );
-});
+const CACHE_NAME=new Date().toISOString();const urlsToCache=["/css/main.min.css","/scripts/global.min.js","/scripts/page.min.js","/android-icon-192x192.png","/img/placeholder.svg","/img/placeholder-sqr.svg","/manifest.json"];self.addEventListener("install",function(event){event.waitUntil(caches.open(CACHE_NAME).then(function(cache){return cache.addAll(urlsToCache);}));});self.addEventListener("fetch",function(event){event.respondWith(caches.match(event.request,{cacheName:CACHE_NAME}).then(function(response){if(response){console.info("ServiceWorker: loading assets from cache ",response.url);return response;}
+console.info("ServiceWorker: loading assets from server ",event.request.url);return fetch(event.request);}));});self.addEventListener("activate",function(event){event.waitUntil(caches.keys().then(function(cacheNames){return Promise.all(cacheNames.map(function(cacheName){if(cacheName!=CACHE_NAME){console.info("ServiceWorker: cache "+cacheName+" deleted");return caches.delete(cacheName);}}));}));});
